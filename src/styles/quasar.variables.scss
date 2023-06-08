@@ -1,0 +1,15 @@
+// It's highly recommended to change the default colors
+// to match your app's branding.
+
+$primary   : rgba(0, 128, 128, 0.384);
+$secondary : #268ca6;
+$accent    : #7e6981;
+
+$dark      : #1D1D1D;
+
+$positive  : #579664;
+$negative  : #C10015;
+$info      : #31cdeccb;
+$warning   : #F2C037;
+
+@import '~quasar-variables-styl'
