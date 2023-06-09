@@ -5,13 +5,14 @@
         view="hhh Lpr fff"
         class="shadow-2 rounded-borders"
       >
-        <q-header elevated >
-          <q-toolbar >
+        <q-header elevated rounded >
+
             <q-btn flat @click="drawerLeft = !drawerLeft" round dense icon="menu" />
-            <p></p>
-            <p></p>
-            <q-toolbar-title>Člověk a pes - spolu</q-toolbar-title>
-          </q-toolbar>
+            
+            <img src="./assets/Dyda.jpg">
+
+            <title>Člověk a pes - spolu</title>
+
         </q-header>
 
         <q-footer>
@@ -23,7 +24,6 @@
         <q-drawer
           v-model="drawerLeft"
           :breakpoint="700"
-          elevated
         >
           <q-scroll-area class="fit">
             <div class="q-pa-sm">
@@ -52,7 +52,7 @@
         </q-drawer>
 
         <q-page-container>
-          <q-page style="padding-top: 60px" class="col-8">
+          <q-page style="padding-top: 60px">
             <router-view/>
           </q-page>
 
