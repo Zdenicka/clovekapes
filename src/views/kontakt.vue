@@ -1,8 +1,10 @@
 <template>
-    <h1>Kontakt</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quibusdam! Blanditiis at sint mollitia sapiente, quis fugiat possimus debitis amet eveniet quam laboriosam nisi maiores, rem nostrum quisquam iusto. Iusto.</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quibusdam! Blanditiis at sint mollitia sapiente, quis fugiat possimus debitis amet eveniet quam laboriosam nisi maiores, rem nostrum quisquam iusto. Iusto.</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quibusdam! Blanditiis at sint mollitia sapiente, quis fugiat possimus debitis amet eveniet quam laboriosam nisi maiores, rem nostrum quisquam iusto. Iusto.</p>
+    <h3>Kontakt</h3>
+  <p class="text-weight-bold">Zdenka Cihlářová</p>
+  <q-separator />
+  <p>Při zájmu o individuální trénink mi prosím napište nebo zavolejte.</p>
+  <p><q-btn round color="primary" icon="mail" />   birma@seznam.cz</p>
+  <p><q-btn round color="primary" icon="call" />    777 629 743</p>
 
 </template>
 
