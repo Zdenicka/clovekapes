@@ -1,48 +1,74 @@
 <template>
-  <div style="background-color: grey; height: 100vh;">
-    
 
-      <div class= "fixed-center full-width row wrap justify-evenly items-start content-stretch " style= "border-radius: 20px; height:100vh; max-height: 1200px; max-width: 1700px;">
+<div class= "fixed-center full-width row wrap justify-evenly items-start content-stretch " style= "border-radius: 20px; height:100vh; max-height: 1200px; max-width: 1500px;">
 
-          <div class= "col-12 q-ma-xs" style= "height: 20%; border-radius: 20px 20px 0 0; font-family: 'Allura'">
-            <q-img src="./assets/banner.jpg" class ="header-image">
-              <q-btn round color="primary" icon="menu" />
-              <div class="absolute-bottom-right text-subtitle2" style="height: 100%">
-                <h4>Člověk a pes - spolu</h4>
-              </div>
-            </q-img>
-          </div>
+    <!--hlavička-->
+    <div class= "col-12 q-ma-xs shadow-12" style= "height: 20%; border-radius: 20px 20px 0 0; font-family: 'Allura'">
+      <q-img src="./assets/banner.jpg" class ="header-image" style="border-radius: 20px 20px 0 0;">
+        <q-btn round color="primary" icon="menu" class="absolute-bottom-left" />
+        <div class="absolute-bottom-right text-subtitle2" style="height: 100%">
+          <h4>Člověk a pes - spolu</h4>
+        </div>
+      </q-img>
+    </div>
 
-          <div class="col-11 col-md-2" style="overflow: auto;  border-radius: 0 0 0 20px; ">
-            <div class= "q-mr-xs q-py-xl shadow-12" style= "background-color: white;">
-              <q-item active clickable v-ripple>
-                <router-link to="/">Home</router-link>
-              </q-item>
+    <!--menu-->
+    <div class="col-11 col-md-2 shadow-12" style="overflow: auto;  border-radius: 0 0 0 20px; ">
+      <div class= "q-mr-xs q-py-xl menu-item" style= "background-color: white;">
         
-              <q-item active clickable v-ripple>
-                <router-link to="/treninky">Treninky</router-link>
-              </q-item>
-              <q-item active clickable v-ripple>
-                <router-link to="/prihlasovani">Přihlašování na tréninky</router-link>
-              </q-item>
-              <q-item active clickable v-ripple>
-                <router-link to="/kontakt">Kontakt</router-link>
-              </q-item>
-            </div>
-          </div>
-          
-          <div class="col-12 col-md-10 q-pa-xl shadow-12 dancing-font" style="overflow: auto; background-color: white; min-height: 72%; ">
-            <router-view/>
-          </div>
-          
-          <div class= "col-0 col-md-2" style="min-height: 5%;">
-          </div>
+          <router-link to="/">
+            <q-item active clickable v-ripple >
+              <span class="myItem">O mě</span>
+            </q-item>
+          </router-link>
+        
+          <router-link to="/treninky">
+            <q-item active clickable v-ripple>
+              <span class="myItem">Tréninky</span>
+            </q-item>
+          </router-link>
 
-          <div class= "col-12 col-md-10" style="background-color: white; min-height: 5%; border-radius: 0 0 20px 20px">
-          </div>
+        <router-link to="/prihlasovani">
+          <q-item active clickable v-ripple>
+            <span class="myItem">Přihlašování na tréninky</span>
+          </q-item>
+        </router-link>
+
+          <router-link to="/kontakt">
+            <q-item active clickable v-ripple>
+              <span class="myItem">Kontakt</span>
+            </q-item>
+          </router-link>
+        
       </div>
+    </div>
+    
+    <!--vlastní obsah stránky-->
+    <div class="col-12 col-md-10 q-pa-xl shadow-12" style="  background-color: white; height: 72%; align-content: center; ">
+      <div style= "max-width: 1050px; font-family: 'Garamond'; font-size: larger; height: 100% ">
+        <q-scroll-area
+          :thumb-style="thumbStyle"
+          :bar-style="barStyle"
+          style="height: 100%; max-width: 1050px"
+          content-style="padding-right: 50px"
+          content-active-style="padding-right: 50px"
+          >
 
+          <router-view/>
+        </q-scroll-area>
+      </div>
+    </div>
+
+    <!--odsazení patičky-->
+    <div class= "col-0 col-md-2" style="height: 5%;">
+    </div>
+
+    <!--patička-->
+    <div class= "col-12 col-md-10 shadow-12" style="background-color: white; height: 5%; border-radius: 0 0 20px 20px">
+    </div>
   </div>
+
+
 </template>
 
 <script>
@@ -58,7 +84,21 @@ export default {
 
   setup () {
     return {
-      drawerLeft: ref(true),
+      thumbStyle: {
+        right: '4px',
+        borderRadius: '5px',
+        backgroundColor: '#fbc356',
+        width: '5px',
+        opacity: 0.75
+      },
+
+      barStyle: {
+        right: '2px',
+        borderRadius: '9px',
+        backgroundColor: '#331e0d',
+        width: '9px',
+        opacity: 0.2
+      }
     }
   }
 }
@@ -69,14 +109,28 @@ export default {
   height: 100%;
   z-index: -1;
 }
-@font-face {
-    font-family: DancingSript;
-    src: url(./assets/fonts/DancingScript.woff);
-}
-.dancing-font {
-  font-family: 'DancingScript';
-}
+
 .menu-item {
+  font-family: 'Garamont';
+  color: $secondary;
+  text-decoration: none;
 
 }
+a {
+  text-decoration: none;
+  font-size: large;
+  color: $secondary;
+}
+
+body {
+  background-color: $accent;
+
+}
+h5 {
+  margin-bottom: 3%;
+}
+.myItem:nth-child(even) {
+  color: $secondary
+}
+
 </style>
