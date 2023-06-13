@@ -65,10 +65,14 @@
 
     <!--patička-->
     <div class= "col-12 col-md-10 shadow-12" style="background-color: white; height: 5%; border-radius: 0 0 20px 20px">
+      <div class="fit row wrap justify-between items-center content-center" style="font-family: 'Garamond'">
+        <div class="col-3 q-pl-md"><p>Fotka v hlavičce je od <a href="https://kopcova-karolina.webnode.cz/">Kája-foto</a></p></div>
+        <div class="col-3">Aktualizace 13.6.2023 <br>Všechna práva vyhrazena</div>
+      </div>
     </div>
+  
+  
   </div>
-
-
 </template>
 
 <script>

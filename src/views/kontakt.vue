@@ -5,36 +5,53 @@
   <p>Při zájmu o individuální trénink mi prosím napište nebo zavolejte.</p>
   <p><a href="mailto: birma@seznam.cz"><q-btn round color="primary" icon="mail" /></a>   
     birma@seznam.cz
-    <q-btn outline round color="primary" icon="bookmark" size="sm" @click="kopiruj"><q-tooltip >Zkopírovat do schránky</q-tooltip></q-btn>
+    <q-btn outline round color="primary" icon="bookmark" size="sm" @click="kopiruj('birma@seznam.cz')"><q-tooltip style="font-family: Garamont; font-size: larger;" >Zkopírovat do schránky</q-tooltip></q-btn>
   </p>
+  
   <p>
-   <q-btn 
-    round 
+    <q-btn 
+      round 
+      color="primary" 
+      icon="call"
+      disable
+    />
+    777 629 743
+    <q-btn outline round color="primary" icon="bookmark" size="sm" @click="kopiruj('777629743')"><q-tooltip style="font-family: Garamont; font-size: larger;" >Zkopírovat do schránky</q-tooltip></q-btn>
+  </p>
+<p>
+Kontaktovat mě samozřejmě můžete i na 
+<a href="https://www.facebook.com/clovekapes/" target="_blank">
+  <q-icon 
     color="primary" 
-    icon="call"
-    disable
-   />
-   
-   777 629 743</p>
-
+    name="fa-brands fa-facebook" 
+    size="md"
+    class="q-mb-md"
+  /> facebooku 
+</a>
+nebo 
+<a href="https://www.instagram.com/clovek_a_pes_spolu/" target="_blank">
+  <q-icon 
+    color="primary" 
+    name="fa-brands fa-instagram" 
+    size="md"
+    class="q-pb-md"
+  /> Instagramu
+</a>.
+</p>
 </template>
 
 <script>
 
 export default {
-  return: {
-data() {
-  return {
-    
-  }
-},
+    data() {
+      return {
+      }
+    },
     methods: {
-      kopiruj() {
-        console.log('Ahoj')
-        navigator.clipboard.writeText("birma@seznam.cz");
+      kopiruj(text) {
+        navigator.clipboard.writeText(text);
       }
     }
   }
-}
 </script>
 
