@@ -5,7 +5,11 @@
   <p>Při zájmu o individuální trénink mi prosím napište nebo zavolejte.</p>
   <p><a href="mailto: birma@seznam.cz"><q-btn round color="primary" icon="mail" /></a>   
     birma@seznam.cz
-    <q-btn outline round color="primary" icon="bookmark" size="sm" @click="kopiruj('birma@seznam.cz')"><q-tooltip style="font-family: Garamont; font-size: larger;" >Zkopírovat do schránky</q-tooltip></q-btn>
+    <q-btn outline round color="primary" icon="bookmark" size="sm" @click="kopiruj('birma@seznam.cz')">
+      <q-tooltip style="font-family: Garamont; font-size: larger;" >
+        Zkopírovat do schránky
+      </q-tooltip>
+    </q-btn>
   </p>
   
   <p>
@@ -16,7 +20,11 @@
       disable
     />
     777 629 743
-    <q-btn outline round color="primary" icon="bookmark" size="sm" @click="kopiruj('777629743')"><q-tooltip style="font-family: Garamont; font-size: larger;" >Zkopírovat do schránky</q-tooltip></q-btn>
+    <q-btn outline round color="primary" icon="bookmark" size="sm" @click="kopiruj('777629743')">
+      <q-tooltip style="font-family: Garamont; font-size: larger;" >
+        Zkopírovat do schránky
+      </q-tooltip>
+    </q-btn>
   </p>
 <p>
 Kontaktovat mě samozřejmě můžete i na 
