@@ -14,22 +14,22 @@
       <q-btn round color="primary" icon="menu" class="float-bottom-left lt-md z-max q-mb-xl" >
         <q-menu>
           <q-list class="menu-item" style="min-width: 100px">
-            <router-link to="/">
+            <router-link :to= "{name: 'home'}">
               <q-item clickable v-close-popup>
                 <q-item-section class="myItem">O mě</q-item-section>
               </q-item>
             </router-link>
-            <router-link to="/treninky">
+            <router-link :to= "{name: 'treninky'}">
               <q-item clickable v-close-popup>
                 <q-item-section class="myItem">Tréninky</q-item-section>
               </q-item>
             </router-link>
-            <router-link to="/prihlasovani">
+            <router-link :to= "{name: 'prihlasovani' }">
             <q-item clickable v-close-popup>
               <q-item-section class="myItem">Přihlašování na tréninky</q-item-section>
             </q-item>
             </router-link>
-            <router-link to="/kontakt">
+            <router-link :to= "{name: 'kontakt'}">
             <q-item clickable v-close-popup>
               <q-item-section class="myItem">Kontakt</q-item-section>
             </q-item>
@@ -47,26 +47,34 @@
     
     <!--vlastní obsah stránky-->
    
-      <div class="col-12 col-md-10 q-pa-xl shadow-12" style="  background-color: white; height: 72%; align-content: center; ">
-        <div v-if="showMenu" class="shadow-12 z-top" style="overflow: auto;" @click= "toggleMenu()" >
-          <div >
-            <Rozdelovnik />
-          </div>
-        </div>
-
-        <div style= "max-width: 1050px; font-family: 'Garamond'; font-size: larger; height: 100% ">
-          <q-scroll-area
-            :thumb-style="thumbStyle"
-            :bar-style="barStyle"
-            style="height: 100%; max-width: 1050px"
-            content-style="padding-right: 50px"
-            content-active-style="padding-right: 50px"
-            >
-            <router-view/>
-          </q-scroll-area>
-        </div>
-
+    <div class="gt-sm col-12 col-md-10 q-pa-xl shadow-12" style="  background-color: white; height: 72%; align-content: center; ">
+      <div style= "max-width: 1050px; font-family: 'Garamond'; font-size: larger; height: 100% ">
+        <q-scroll-area
+          :thumb-style="thumbStyle"
+          :bar-style="barStyle"
+          style="height: 100%; max-width: 1050px"
+          content-style="padding-right: 50px"
+          content-active-style="padding-right: 50px"
+          >
+          <router-view/>
+        </q-scroll-area>
+      </div>
     </div>
+
+    <div class="lt-md col-12 col-md-10 q-pa-sm shadow-12" style="  background-color: white; height: 72%; align-content: center; ">
+      <div style= "max-width: 1050px; font-family: 'Garamond'; font-size: medium; height: 100% ">
+        <q-scroll-area
+          :thumb-style="thumbStyle"
+          :bar-style="barStyle"
+          style="height: 100%; max-width: 1050px"
+          content-style="padding-right: 20px"
+          content-active-style="padding-right: 20px"
+          >
+          <router-view/>
+        </q-scroll-area>
+      </div>
+    </div>
+
 
     <!--odsazení patičky-->
     <div v-if="!showMenu" class= "col-0 col-md-2" style="height: 5%;">

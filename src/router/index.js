@@ -25,6 +25,10 @@ const routes = [
     name: 'kontakt',
     component: kontakt
   },
+  {
+    path: '/:catchAll(.*)',
+    redirect: '/'
+  }
 
 
 ]
