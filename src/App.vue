@@ -13,23 +13,23 @@
 
       <q-btn round color="primary" icon="menu" class="float-bottom-left lt-md z-max q-mb-xl" >
         <q-menu>
-          <q-list class="menu-item" style="min-width: 100px">
+          <q-list class="menu-item" style="min-width: 100px;">
             <router-link :to= "{name: 'home'}">
-              <q-item clickable v-close-popup>
+              <q-item clickable v-close-popup @click="scroll('scrollAreaRef')">
                 <q-item-section class="myItem">O mě</q-item-section>
               </q-item>
             </router-link>
-            <router-link :to= "{name: 'treninky'}">
+            <router-link :to= "{name: 'treninky'}" @click="scroll('scrollAreaRef')">
               <q-item clickable v-close-popup>
                 <q-item-section class="myItem">Tréninky</q-item-section>
               </q-item>
             </router-link>
-            <router-link :to= "{name: 'prihlasovani' }">
+            <router-link :to= "{name: 'prihlasovani' }" @click="scroll('scrollAreaRef')">
             <q-item clickable v-close-popup>
               <q-item-section class="myItem">Přihlašování na tréninky</q-item-section>
             </q-item>
             </router-link>
-            <router-link :to= "{name: 'kontakt'}">
+            <router-link :to= "{name: 'kontakt'}" @click="scroll('scrollAreaRef')">
             <q-item clickable v-close-popup>
               <q-item-section class="myItem">Kontakt</q-item-section>
             </q-item>
@@ -42,7 +42,35 @@
 
     <!--menu-->
     <div class="gt-sm col-md-2 shadow-12" style="overflow: auto;  border-radius: 0 0 0 20px; ">
-      <Rozdelovnik />
+      <div class= "q-mr-xs q-py-xl menu-item" style= "background-color: white;" @click="scroll('scrollAreaRef2')">
+    
+    <router-link :to= "{name: 'home'}">
+      <q-item active clickable v-ripple>
+        <span class="myItem">O mě</span>
+      </q-item>
+    </router-link>
+  
+    <router-link :to= "{name: 'treninky'}">
+      <q-item active clickable v-ripple>
+        <span class="myItem">Tréninky</span>
+      </q-item>
+    </router-link>
+
+  <router-link :to= "{name: 'prihlasovani' }">
+    <q-item active clickable v-ripple>
+      <span class="myItem">Přihlašování na tréninky</span>
+      
+    </q-item>
+  </router-link>
+
+    <router-link :to= "{name: 'kontakt'}">
+      <q-item active clickable v-ripple>
+        <span class="myItem">Kontakt</span>
+      </q-item>
+    </router-link>
+    
+
+</div>
     </div>
     
     <!--vlastní obsah stránky-->
@@ -50,6 +78,7 @@
     <div class="gt-sm col-12 col-md-10 q-pa-xl shadow-12" style="  background-color: white; height: 72%; align-content: center; ">
       <div style= "max-width: 1050px; font-family: 'Garamond'; font-size: larger; height: 100% ">
         <q-scroll-area
+          ref="scrollAreaRef"
           :thumb-style="thumbStyle"
           :bar-style="barStyle"
           style="height: 100%; max-width: 1050px"
@@ -64,6 +93,7 @@
     <div class="lt-md col-12 col-md-10 q-pa-sm shadow-12" style="  background-color: white; height: 72%; align-content: center; ">
       <div style= "max-width: 1050px; font-family: 'Garamond'; font-size: medium; height: 100% ">
         <q-scroll-area
+          ref="scrollAreaRef2"
           :thumb-style="thumbStyle"
           :bar-style="barStyle"
           style="height: 100%; max-width: 1050px"
@@ -77,17 +107,23 @@
 
 
     <!--odsazení patičky-->
-    <div v-if="!showMenu" class= "col-0 col-md-2" style="height: 5%;">
+    <div class= "col-0 col-md-2" style="height: 5%;">
     </div>
 
     <!--patička-->
-    <div v-if="!showMenu" class= "col-12 col-md-10 shadow-12 paticka">
-      <div class="fit row wrap justify-between items-center content-center" style="font-family: 'Garamond'; font-size: small">
-        <div class="col-4 q-pl-md"><p>Fotka v hlavičce je od <a href="https://kopcova-karolina.webnode.cz/" target="_blank">Kája-foto</a></p></div>
-        <div class="col-3">Aktualizace 13.6.2023 <br>Všechna práva vyhrazena</div>
+    <div class= "lt-md col-12 col-md-10 shadow-12 paticka">
+      <div class="fit row wrap justify-between items-baseline content-center" style="font-family: 'Garamond'; font-size: x-small; height: 100%">
+        <div class="col-6 q-pl-md" style="text-align: left;">Fotka v hlavičce je od <a href="https://kopcova-karolina.webnode.cz/" target="_blank"><br>Kája-foto</a></div>
+        <div class="col-6 q-pr-md" style="text-align: right;">Aktualizace 13.6.2023 <br>Všechna práva vyhrazena</div>
       </div>
     </div>
-  
+    <div class= "gt-sm col-12 col-md-10 shadow-12 paticka">
+      <div class="fit row wrap justify-between items-center content-center" style="font-family: 'Garamond'; font-size: small; height: 100%">
+        <div class="col-6 q-pl-md" style="text-align: left;">Fotka v hlavičce je od <a href="https://kopcova-karolina.webnode.cz/" target="_blank"><br>Kája-foto</a></div>
+        <div class="col-6 q-pr-md" style="text-align: right;">Aktualizace 13.6.2023 <br>Všechna práva vyhrazena</div>
+      </div>
+    </div>
+
   
   </div>
 </template>
@@ -102,20 +138,22 @@ export default {
   components: {
     Rozdelovnik
   },
-  data() {
-    return {
-      showMenu: false,
-    }
-  },
-  methods: {
-    toggleMenu() {
-      console.log('toggleMenu')
-      this.showMenu = !this.showMenu
-    }
-  },
 
   setup () {
+    const position = ref(0)
+    const scrollAreaRef = ref(null)
+
     return {
+      position,
+      scrollAreaRef,
+
+      scroll (scrollArea) {
+        console.log('scroll')
+        scrollArea = this.scrollAreaRef
+        scrollAreaRef.value.setScrollPosition('vertical',  position.value)
+        position.value = 0
+      },
+
       thumbStyle: {
         right: '4px',
         borderRadius: '5px',
@@ -130,10 +168,12 @@ export default {
         backgroundColor: '#331e0d',
         width: '9px',
         opacity: 0.2
-      }
+      },
+
     }
   }
 }
+
 </script>
 
 <style lang="scss">
@@ -171,7 +211,7 @@ h5 {
   overflow: auto
 }
 .paticka a {
-  font-size: small;
+  font-size: x-small;
 }
 
 </style>
