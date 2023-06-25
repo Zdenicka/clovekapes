@@ -5,31 +5,30 @@
     <!--hlavička-->
     <div class= "col-12 q-ma-xs shadow-12" style= "height: 20%; border-radius: 20px 20px 0 0; font-family: 'Allura'; ">
     <q-img src="./assets/banner.jpg" class ="header-image" style="border-radius: 20px 20px 0 0; z-index: -1;">
-        
-        <div class="absolute-bottom-right text-subtitle2" style="height: 100%">
-          <h4>Člověk a pes - spolu</h4>
-        </div>
-      </q-img>
+      <div class="absolute-bottom-right text-subtitle2" style="height: 100%">
+        <h4>Člověk a pes - spolu</h4>
+      </div>
+    </q-img>
 
       <q-btn round color="primary" icon="menu" class="float-bottom-left lt-md z-max q-mb-xl" >
-        <q-menu>
-          <q-list class="menu-item" style="min-width: 100px;">
+        <q-menu >
+          <q-list class="menu-item" style="min-width: 100px;" @click="scroll2()">
             <router-link :to= "{name: 'home'}">
-              <q-item clickable v-close-popup @click="scroll('scrollAreaRef')">
+              <q-item clickable v-close-popup>
                 <q-item-section class="myItem">O mě</q-item-section>
               </q-item>
             </router-link>
-            <router-link :to= "{name: 'treninky'}" @click="scroll('scrollAreaRef')">
+            <router-link :to= "{name: 'treninky'}" >
               <q-item clickable v-close-popup>
                 <q-item-section class="myItem">Tréninky</q-item-section>
               </q-item>
             </router-link>
-            <router-link :to= "{name: 'prihlasovani' }" @click="scroll('scrollAreaRef')">
+            <router-link :to= "{name: 'prihlasovani' }" >
             <q-item clickable v-close-popup>
               <q-item-section class="myItem">Přihlašování na tréninky</q-item-section>
             </q-item>
             </router-link>
-            <router-link :to= "{name: 'kontakt'}" @click="scroll('scrollAreaRef')">
+            <router-link :to= "{name: 'kontakt'}">
             <q-item clickable v-close-popup>
               <q-item-section class="myItem">Kontakt</q-item-section>
             </q-item>
@@ -42,7 +41,7 @@
 
     <!--menu-->
     <div class="gt-sm col-md-2 shadow-12" style="overflow: auto;  border-radius: 0 0 0 20px; ">
-      <div class= "q-mr-xs q-py-xl menu-item" style= "background-color: white;" @click="scroll('scrollAreaRef2')">
+      <div class= "q-mr-xs q-py-xl menu-item" style= "background-color: white;" @click="scroll()">
     
     <router-link :to= "{name: 'home'}">
       <q-item active clickable v-ripple>
@@ -91,7 +90,7 @@
     </div>
 
     <div class="lt-md col-12 col-md-10 q-pa-sm shadow-12" style="  background-color: white; height: 72%; align-content: center; ">
-      <div style= "max-width: 1050px; font-family: 'Garamond'; font-size: medium; height: 100% ">
+      <div style= "max-width: 1050px; font-family: 'Garamond'; font-size: medium; height: 100%">
         <q-scroll-area
           ref="scrollAreaRef2"
           :thumb-style="thumbStyle"
@@ -118,7 +117,7 @@
       </div>
     </div>
     <div class= "gt-sm col-12 col-md-10 shadow-12 paticka">
-      <div class="fit row wrap justify-between items-center content-center" style="font-family: 'Garamond'; font-size: small; height: 100%">
+      <div class="fit row wrap justify-between items-center content-center" style="font-family: 'Garamond'; font-size: small; height: 100%" >
         <div class="col-6 q-pl-md" style="text-align: left;">Fotka v hlavičce je od <a href="https://kopcova-karolina.webnode.cz/" target="_blank"><br>Kája-foto</a></div>
         <div class="col-6 q-pr-md" style="text-align: right;">Aktualizace 13.6.2023 <br>Všechna práva vyhrazena</div>
       </div>
@@ -130,27 +129,32 @@
 
 <script>
 import { ref } from 'vue'
-import Rozdelovnik from './components/Rozdelovnik.vue'
+
 
 export default {
   name: 'App',
 
   components: {
-    Rozdelovnik
+
   },
 
   setup () {
     const position = ref(0)
     const scrollAreaRef = ref(null)
+    const scrollAreaRef2 = ref(null)
 
     return {
       position,
       scrollAreaRef,
+      scrollAreaRef2,
 
-      scroll (scrollArea) {
-        console.log('scroll')
-        scrollArea = this.scrollAreaRef
+      scroll () {
         scrollAreaRef.value.setScrollPosition('vertical',  position.value)
+        position.value = 0
+      },
+
+      scroll2 () {
+        scrollAreaRef2.value.setScrollPosition('vertical',  position.value)
         position.value = 0
       },
 
