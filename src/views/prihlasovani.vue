@@ -1,7 +1,7 @@
 <template>
   <h3>Přihlašování na tréninky</h3>
   <h5>Individuální tréninky</h5>
-    <p>Individuální tréninky po domluvě co chcete řešit - jsou možné venku nebo přímo u vás doma.</p>
+    <p>Individuální tréninky po&nbsp;domluvě co chcete řešit - jsou možné venku nebo přímo u&nbsp;vás doma.</p>
     <p>Cena individuálního tréninku je 500 Kč/h a pak 100 Kč/ každá započatá čtvrthodina. V oblasti mezi Nymburkem, Jičínem a Mladou Boleslaví si nepočítám cestu, delší vzdálenosti záleží na domluvě.</p>
   <h5>Skupinové tréninky a socializační procházky v Jičíně a Mladé Boleslavi</h5>
     <p>Vypisuji spíše sporadicky. Pokud jsou, najdete je na <a href="https://clovek-a-pes-spolu.dogres.cz/trainings" target="_blank">mém dogresu.</a></p>
