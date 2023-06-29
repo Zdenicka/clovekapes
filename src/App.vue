@@ -4,7 +4,7 @@
 
     <!--hlavička-->
     <div class= "col-12 q-ma-xs shadow-12" style= "height: 20%; border-radius: 20px 20px 0 0; font-family: 'Allura'; ">
-    <q-img src="./assets/banner.jpg" class ="header-image" style="border-radius: 20px 20px 0 0; z-index: -1;">
+    <q-img src="./assets/banner.jpg" class ="header-image" alt="hlavička stránky - hlava psa" style="border-radius: 20px 20px 0 0; z-index: -1;">
       <div class="absolute-bottom-right text-subtitle2" style="height: 100%">
         <h4>Člověk a pes - spolu</h4>
       </div>
