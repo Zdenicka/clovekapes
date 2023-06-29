@@ -1,4 +1,11 @@
 <template>
+   <head>
+    <title>Trenér psů - Člověk a pes - spolu</title>
+    <meta name="description" content="Přihlašte se se svým psem na trénink v Nymburce, Jičíně nebo Mladé Boleslavi. Skupinový i individuální trénink, základy i řešení problémů." />
+    <meta name="keywords" content="trenér psů, trenér psů Mladá Boleslav, trenér psů Nymburk, trenér psů Jičín, trenér psů pozitivně">
+</head>
+<body>
+
   <h3>Přihlašování na tréninky</h3>
   <h5>Individuální tréninky</h5>
     <p>Individuální tréninky po&nbsp;domluvě co chcete řešit - jsou možné venku nebo přímo u&nbsp;vás doma.</p>
@@ -10,7 +17,7 @@
     <p>Na tréninky v rámci <a href="https://zkonymburk.blogspot.com/">ZKO Nymburk</a> se přihlašujte přes <a href="https://zko-nymburk.dogres.cz/trainings?trainer_id=924" target="_blank">dogres ZKO</a>. 
     Na cvičáku funguje kreditový systém, pro přihlášení je tedy nutné mít zakoupené kredity.</p>
     <iframe src="https://zko-nymburk.dogres.cz/trainings?trainer_id=924" width="100%" height="400px"></iframe>
-
+</body>
 
 
 </template>

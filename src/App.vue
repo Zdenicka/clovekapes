@@ -15,7 +15,7 @@
           <q-list class="menu-item" style="min-width: 100px;" @click="scroll2()">
             <router-link :to= "{name: 'home'}">
               <q-item clickable v-close-popup>
-                <q-item-section class="myItem">O mě</q-item-section>
+                <q-item-section class="myItem">O mně</q-item-section>
               </q-item>
             </router-link>
             <router-link :to= "{name: 'treninky'}" >

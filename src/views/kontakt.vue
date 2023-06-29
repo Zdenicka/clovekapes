@@ -1,5 +1,11 @@
 <template>
-    <h3>Kontakt</h3>
+     <head>
+    <title>Trenér psů - Člověk a pes - spolu</title>
+    <meta name="description" content="Zdenka Cihlářová - trenér psů - kontaktní údaje" />
+    <meta name="keywords" content="trenér psů, trenér psů Mladá Boleslav, trenér psů Nymburk, trenér psů Jičín, trenér psů pozitivně">
+</head>
+<body>
+  <h3>Kontakt</h3>
   <h5>Zdenka Cihlářová</h5>
   <q-separator />
   <p>Při zájmu o individuální trénink mi prosím napište nebo zavolejte.</p>
@@ -26,26 +32,27 @@
       </q-tooltip>
     </q-btn>
   </p>
-<p>
-Kontaktovat mě samozřejmě můžete i na 
-<a href="https://www.facebook.com/clovekapes/" target="_blank">
-  <q-icon 
-    color="primary" 
-    name="fa-brands fa-facebook" 
-    size="md"
-    class="q-mb-md"
-  /> facebooku 
-</a>
-nebo 
-<a href="https://www.instagram.com/clovek_a_pes_spolu/" target="_blank">
-  <q-icon 
-    color="primary" 
-    name="fa-brands fa-instagram" 
-    size="md"
-    class="q-pb-md"
-  /> Instagramu
-</a>.
-</p>
+  <p>
+  Kontaktovat mě samozřejmě můžete i na 
+  <a href="https://www.facebook.com/clovekapes/" target="_blank">
+    <q-icon 
+      color="primary" 
+      name="fa-brands fa-facebook" 
+      size="md"
+      class="q-mb-md"
+    /> facebooku 
+  </a>
+  nebo 
+  <a href="https://www.instagram.com/clovek_a_pes_spolu/" target="_blank">
+    <q-icon 
+      color="primary" 
+      name="fa-brands fa-instagram" 
+      size="md"
+      class="q-pb-md"
+    /> Instagramu
+  </a>.
+  </p>
+</body>
 </template>
 
 <script>
