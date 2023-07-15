@@ -200,7 +200,7 @@ a {
 
 body {
   background-color: $accent;
-
+  font-family: 'Garamont';
 }
 h5 {
   margin-bottom: 3%;

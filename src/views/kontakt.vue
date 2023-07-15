@@ -1,10 +1,6 @@
 <template>
-     <head>
-    <title>Trenér psů - Člověk a pes - spolu</title>
-    <meta name="description" content="Zdenka Cihlářová - trenér psů - kontaktní údaje" />
-    <meta name="keywords" content="trenér psů, trenér psů Mladá Boleslav, trenér psů Nymburk, trenér psů Jičín, trenér psů pozitivně">
-</head>
-<body>
+
+
   <h3>Kontakt</h3>
   <h5>Zdenka Cihlářová</h5>
   <q-separator />
@@ -52,7 +48,7 @@
     /> Instagramu
   </a>.
   </p>
-</body>
+
 </template>
 
 <script>

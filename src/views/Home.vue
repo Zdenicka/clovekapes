@@ -1,10 +1,5 @@
 <template>
-<head>
-    <title>Trenér psů - Člověk a pes - spolu</title>
-    <meta name="description" content="Působím jako trenér psů. Zaměřuji se hlavně na výchovu rodinného psa a řešení problémů v lidsko-psím soužití. Pracuji převážně technikou pozitivního posilování." />
-    <meta name="keywords" content="trenér psů, trenér psů Mladá Boleslav, trenér psů Nymburk, trenér psů Jičín, trenér psů pozitivně">
-</head>
-<body>
+
     <h3>O mně</h3>
   <p>Jmenuji se Zdenka Cihlářová a pomáhám lidem a jejich psům, aby žili spokojenější život. Spolu. Aby nemuseli bojovat jeden s&nbsp;druhým, aby našli společnou cestu i&nbsp;řeč.</p>
   <p>Pracuji především technikou pozitivního posilování.</p>
@@ -26,7 +21,7 @@
   A co je asi nejdůležitější, naučila jsem se, jak se s&nbsp;nimi dobře bavit a jak se z&nbsp;toho nezbláznit :)</p> 
   <p>Se&nbsp;svými psy jsem si během let vyzkoušela klasickou poslušnost, dogdancing, nosework, agility i hoopers a v&nbsp;některých z&nbsp;těchto odvětví splnila alespoň základní zkoušky. 
     Díky tomu mám představu, který sport by mohl bavit které psy a případně odkázat na&nbsp;trenéra onoho sportu v&nbsp;okolí.</p>
-</body>
+
 </template>
 <script>
 
