@@ -4,16 +4,18 @@ import treninky from '../views/treninky.vue'
 import prihlasovani from '../views/prihlasovani.vue'
 import kontakt from '../views/kontakt.vue'
 
+
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: Home
+    component: Home,
   },
   {
     path: '/treninky',
     name: 'treninky',
-    component: treninky
+    component: treninky,
+
   },
   {
     path: '/prihlasovani',

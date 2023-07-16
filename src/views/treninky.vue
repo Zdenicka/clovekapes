@@ -22,3 +22,14 @@
         <p>Kurz pro všechny psí citlivky i macha, se kterými možná doma bojujete při&nbsp;vyndavání klíšťat, stříhání drápků, česání nebo kontrole uší. Možná váš problém začíná až při&nbsp;pohledu na dveře veteriny. Nebojte, i to se dá trpělivou prací změnit.</p>
 
 </template>
+<script>
+import { useMeta } from 'vue-meta'
+
+export default {
+  setup () {
+    useMeta({ title: 'Člověk a pes spolu - trenér psů Zdenka Cihlářová - nabízené tréninky a kurzy' })
+  },
+
+
+}
+</script>

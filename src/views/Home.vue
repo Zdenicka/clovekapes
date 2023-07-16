@@ -24,13 +24,18 @@
 
 </template>
 <script>
-
+import { useMeta } from 'vue-meta'
 
 export default {
   name: 'Home',
   components: {
     
-  }
+  },
+
+  setup () {
+    useMeta({ title: 'Člověk a pes spolu - trenér psů Zdenka Cihlářová' })
+  },
+
 }
 </script>
 

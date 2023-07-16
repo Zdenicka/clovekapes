@@ -52,12 +52,17 @@
 </template>
 
 <script>
+import { useMeta } from 'vue-meta'
 
 export default {
     data() {
       return {
       }
     },
+    setup () {
+      useMeta({ title: 'Člověk a pes spolu - trenér psů Zdenka Cihlářová - kontaktní údaje' })
+    },
+
     methods: {
       kopiruj(text) {
         navigator.clipboard.writeText(text);

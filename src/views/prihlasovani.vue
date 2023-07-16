@@ -23,7 +23,13 @@
 </template>
 
 <script>
+import { useMeta } from 'vue-meta'
+
 export default {
+  setup () {
+    useMeta({ title: 'Člověk a pes spolu - trenér psů Zdenka Cihlářová - přihlašování na tréninky a kurzy' })
+  },
+
 
 }
 </script>

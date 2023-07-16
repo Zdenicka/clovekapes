@@ -1,4 +1,7 @@
 <template>
+   <metainfo>
+    <template v-slot:title="{ content }">{{ content ? `${content}` : `Člověk a pes spolu` }}</template>
+  </metainfo>
 
 <div class= "fixed-center full-width row wrap justify-evenly items-start content-stretch " style= "border-radius: 20px; height:100vh; max-height: 1200px; max-width: 1500px;">
 
@@ -129,19 +132,41 @@
 
 <script>
 import { ref } from 'vue'
+import { useMeta } from 'vue-meta'
 
 
 export default {
   name: 'App',
 
   components: {
-
   },
+
+  /*metaInfo() {
+    return { 
+        title: 'Člověk a pes spolu - trenér psů Zdenka Cihlářová',
+        meta: [
+                { name: 'description', content:'Moje vzdělání, práce s mými vlastními psy, zkušenosti s tréninkem rodinných i problematických psů'},
+              ]
+              meta: [
+                { name: 'description', content:  'Epiloge is about connecting in your field of interest. Our vision is to help people share their knowledge, work, projects, papers and ideas and build their network through what they do rather where they live, study or work.'},
+                { property: 'og:title', content: "Epiloge - Build your network in your field of interest"},
+                { property: 'og:site_name', content: 'Epiloge'},
+                {property: 'og:type', content: 'website'},    
+                {name: 'robots', content: 'index,follow'} 
+            ]
+    }
+  },*/
+
 
   setup () {
     const position = ref(0)
     const scrollAreaRef = ref(null)
     const scrollAreaRef2 = ref(null)
+
+    useMeta({
+      title: '',
+      htmlAttrs: { lang: 'en', amp: true }
+    })
 
     return {
       position,
