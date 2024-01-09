@@ -31,6 +31,12 @@
               <q-item-section class="myItem">Přihlašování na tréninky</q-item-section>
             </q-item>
             </router-link>
+            <router-link :to= "{name: 'tabory'}" >
+              <q-item clickable v-close-popup>
+                <q-item-section class="myItem">Tábory</q-item-section>
+              </q-item>
+            </router-link>
+
             <router-link :to= "{name: 'kontakt'}">
             <q-item clickable v-close-popup>
               <q-item-section class="myItem">Kontakt</q-item-section>
@@ -65,11 +71,18 @@
     </q-item>
   </router-link>
 
-    <router-link :to= "{name: 'kontakt'}">
+  <router-link :to= "{name: 'tabory'}">
       <q-item active clickable v-ripple>
-        <span class="myItem">Kontakt</span>
+        <span class="myItem">Tábory</span>
       </q-item>
     </router-link>
+
+
+  <router-link :to= "{name: 'kontakt'}">
+    <q-item active clickable v-ripple>
+      <span class="myItem">Kontakt</span>
+    </q-item>
+  </router-link>
     
 
 </div>
@@ -116,13 +129,13 @@
     <div class= "lt-md col-12 col-md-10 shadow-12 paticka">
       <div class="fit row wrap justify-between items-baseline content-center" style="font-family: 'Garamond'; font-size: x-small; height: 100%">
         <div class="col-6 q-pl-md" style="text-align: left;">Fotka v hlavičce je od <a href="https://kopcova-karolina.webnode.cz/" target="_blank"><br>Kája-foto</a></div>
-        <div class="col-6 q-pr-md" style="text-align: right;">Aktualizace 13.6.2023 <br>Všechna práva vyhrazena</div>
+        <div class="col-6 q-pr-md" style="text-align: right;">Aktualizace 13.6.2023 <br>© Zdenka Cihlářová 2024</div>
       </div>
     </div>
     <div class= "gt-sm col-12 col-md-10 shadow-12 paticka">
       <div class="fit row wrap justify-between items-center content-center" style="font-family: 'Garamond'; font-size: small; height: 100%" >
-        <div class="col-6 q-pl-md" style="text-align: left;">Fotka v hlavičce je od <a href="https://kopcova-karolina.webnode.cz/" target="_blank"><br>Kája-foto</a></div>
-        <div class="col-6 q-pr-md" style="text-align: right;">Aktualizace 13.6.2023 <br>Všechna práva vyhrazena</div>
+        <div class="col-6 q-pl-md" style="text-align: left;">Fotka v hlavičce je od <a href="https://kopcova-karolina.webnode.cz/" target="_blank">Kája-foto</a></div>
+        <div class="col-6 q-pr-md" style="text-align: right;">Aktualizace 13.6.2023 <br>© Zdenka Cihlářová 2024</div>
       </div>
     </div>
 

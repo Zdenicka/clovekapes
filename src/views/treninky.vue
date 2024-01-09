@@ -17,7 +17,7 @@
     <h5>Základy rodinného psa pro dospělé psy a puberťáky</h5>
         <p>Kurz vhodný pro všechny psíky, u&nbsp;kterých máte pocit, že byste si v&nbsp;běžných situacích mohli lépe rozumět. Možná jste v jejich štěněcím období neměli dostatek času, nebo vám vstoupil do&nbsp;cesty běžný život, 
         možná jste neměli dost podpory a informací, nebo jste si je přivedli domů už dospělé či dospívající. Nevadí, i dospělého psa slušnému chování naučíme, nebojte. V&nbsp;klidu a po&nbsp;dobrém.</p>
-    <h5>Základy rodinného psa pro dospělé psy a puberťáky</h5>
+    <h5>Základy rodinného psa pro štěňátka</h5>
         <p>V&nbsp;tomto kurzu je stejná náplň, jako v Základech rodinného psa pro&nbsp;dospělé psy a puberťáky. Více se však přizpůsobujeme teprve se vyvíjecímu mozku štěňátek - jejich větší potřebě zkoumat prostředí, kratší schopnosti se soustředit i rychleji nastupující únavě.</p>
     <h5>Všeobecná sportovní přípravka</h5>
         <p>Tady předpokládám, že si se&nbsp;svým psíkem docela rozumíte a máte nějaké sportovní ambice. Ambicí může být i (jen) pravidelné ježdění na tréninky nějakého sportu a vybití nastřádané energie. Nebo možná už i tréninky nějakého sportu navštěvujete a zjistili jste, že by bylo fajn, aby váš psí parťák uměl věci, které nejsou úplně předmětem onoho sportu, ale vám to tréninky ztěžuje a váš trenér nemá čas, aby vám s tím během úzce zaměřených tréninků poradil.

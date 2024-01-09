@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import treninky from '../views/treninky.vue'
 import prihlasovani from '../views/prihlasovani.vue'
 import kontakt from '../views/kontakt.vue'
+import tabory from '../views/Tabory.vue'
 
 
 const routes = [
@@ -26,6 +27,11 @@ const routes = [
     path: '/kontakt',
     name: 'kontakt',
     component: kontakt
+  },
+  {
+    path: '/tabory',
+    name: 'tabory',
+    component: tabory
   },
   {
     path: '/:catchAll(.*)',
