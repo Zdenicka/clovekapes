@@ -31,12 +31,13 @@
               <q-item-section class="myItem">Přihlašování na tréninky</q-item-section>
             </q-item>
             </router-link>
+            <!--
             <router-link :to= "{name: 'tabory'}" >
               <q-item clickable v-close-popup>
                 <q-item-section class="myItem">Tábory</q-item-section>
               </q-item>
             </router-link>
-
+            -->
             <router-link :to= "{name: 'kontakt'}">
             <q-item clickable v-close-popup>
               <q-item-section class="myItem">Kontakt</q-item-section>
@@ -70,13 +71,13 @@
       
     </q-item>
   </router-link>
-
+  <!--
   <router-link :to= "{name: 'tabory'}">
-      <q-item active clickable v-ripple>
-        <span class="myItem">Tábory</span>
-      </q-item>
-    </router-link>
-
+    <q-item active clickable v-ripple>
+      <span class="myItem">Tábory</span>
+    </q-item>
+  </router-link>
+  -->
 
   <router-link :to= "{name: 'kontakt'}">
     <q-item active clickable v-ripple>

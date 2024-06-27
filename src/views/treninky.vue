@@ -7,10 +7,12 @@
         <p>Mohu vám nabídnout pomoc s&nbsp;<b>výchovou rodinného psa</b> i se&nbsp;všeobecnou přípravou pro psí sporty - práci na&nbsp;soustředění, sebekontrole, přivolání, vzorné chůzi na vodítku, nácvik ošetření i učení konkrétních cviků nebo triků. 
         Vše takovou formou, abyste se bavili vy i váš pes a společný čas si všichni užili.</p>
         <p>Druhou oblastí na&nbsp;kterou se zaměřuji je řešení již existujícího <b>problémového chování</b>. Ráda budu vám i vašemu psovi pomáhat při práci se&nbsp;xa\strachem, agresí ke psům i lidem i dalšími problémy a pomůžu vám nastavit vaše soužití tak, aby fungovalo pro vás i pro psa.</p>
-    <h5>Skupinové tréninky</h5>
-        <p>Skupinové tréninky v současné době nabízím hlavně v&nbsp;<a href="https://zkonymburk.blogspot.com/" target="_blank">ZKO Nymburk</a>, nicméně občas je vypíšu i v&nbsp;Mladé Boleslavi nebo Jičíně.</p>
+    <h5>Skupinové tréninky a socializační procházky</h5>
+        <p>Skupinové tréninky v současné době nabízím v&nbsp;<a href="https://zkonymburk.blogspot.com/" target="_blank">ZKO Nymburk</a>, &nbsp;Mladé Boleslavi a Jičíně.</p>
+        <p>Tréninky jsou zaměřené primárně přivolání, chůzi na prověšeném vodítku a sebekontrolu.</p>
+        <p>U socializačních vycházek dbám na pohodu všech zúčastněných, jsou tedy vhodné i pro bázlivější nebo reaktivní psíky</p>
     <h3>Kurzy</h3>
-        <p>Od začátku podzimu běží mé kurzy v&nbsp;<a href="https://zkonymburk.blogspot.com/" target="_blank">ZKO Nymburk</a>. Tyto kurzy obsahují i teoretický úvod, který není pro účastníky povinný, zato je velmi užitečný.</p>
+        <p>V&nbsp;<a href="https://zkonymburk.blogspot.com/" target="_blank">ZKO Nymburk</a> běží nyní i mé kurzy. Ty obsahují i teoretický úvod, který není pro účastníky povinný, zato je velmi užitečný.</p>
         <p>Cílem všech mých kurzů je usnadnit vám společný život s vaším psem nebo nastartovat vaši společnou sportovní kariéru.</p>
         <p>Za obrovskou výhodu kurzů považuji to, že&nbsp;tréninky na sebe navazují, postupujete v nich od jednodušších věcí ke složitějším a pokud se někde objeví zádrhel, snadno se k&nbsp;němu na příští lekci vrátíme a odstraníme ho. Máte také možsnost sledovat pokroky ostatních týmů a učit se od&nbsp;nich.
         Celý postup tak dává větší smysl a po&nbsp;celou dobu kurzy (i po&nbsp;něm) můžete stavět na&nbsp;teoretickém základu, ktterý získáte na&nbsp;úvodní hodině.</p>
