@@ -14,7 +14,7 @@
     </q-btn>
   </p>
   
-  <p>
+  <p data-phone="+420777629743">
     <q-btn 
       round 
       color="primary" 
