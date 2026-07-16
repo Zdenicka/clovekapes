@@ -9,49 +9,41 @@
       za&nbsp;každou další započatou čtvrthodinu si účtuji 100&nbsp;Kč<br>
       při pravidelných individuálních trénincích se od druhého tréninku cena první hodiny každé lekce snižuje na 600&nbsp;Kč</p>
     <h6>Doprava</h6>
-      <p>Za dopravu si účtuji 6 Kč/km (počítám vzdálenost jen jedním směrem - tedy pokud jste 20 km od Rožďalovic, je cena za dopravu 120 Kč)<br>
+      <p>Za dopravu si účtuji 8 Kč/km (počítám vzdálenost jen jedním směrem - tedy pokud jste 20 km od Rožďalovic, je cena za dopravu 160 Kč)<br>
       tento poplatek neúčtuji, pokud se trénink koná v&nbsp;Rožďalovicích nebo pokud jste přihlášeni na&nbsp;předem vypsaný trénink</p>
-  
+    <h6>Záznam</h6>
+    <p>Po dohodě vám mohu poslat na email záznam z lekce - shrnutí, postupy toho, co jsme trénovali, návody případně odkazy na věci o kterých jsme na lekci mluvili + úkoly pro vás jak dále postupovat. Tato služba je za poplatek 100 Kč.</p>
+
   <h5>ZKO Nymburk - kurzy</h5>
     <p>Přihlašování je přes <a href="https://zko-nymburk.dogres.cz/trainings?trainer_id=924" target="_blank">dogres ZKO</a>.<br>
       Kurzy na rozdíl od jednotlivých lekcí nejsou hrazeny kreditovým systémem</p>
     <p>  
-      Další kurzy začnou na přelomu května a června a budou probíhat v úterky a soboty/neděle. Nově v mojí nabídce najdete i první minikurzy:<br>
-      <!--<a href="https://zko-nymburk.dogres.cz/trainings/465354" target="_blank"><b>Pozornost a přivolání</b></a> - sobota<br>
+      Další kurzy začnou v červenci a srpnu a budou probíhat v úterky a soboty:<br>
+      <!--
       <a href="https://zko-nymburk.dogres.cz/trainings/487905" target="_blank"><b>Péče a ošetření</b></a> - sobota<br> 
       <a href="https://zko-nymburk.dogres.cz/trainings/480709" target="_blank"><b>Kurz pro reaktivce - jak být s&nbsp;ostatními psy a lidmi v&nbsp;pohodě</b> - sobota</a><br>
-      <a href="https://zko-nymburk.dogres.cz/trainings/503276" target="_blank"><b>Od všeho trochu - kurz pro pokročilé</b></a> - soboty<br>-->  
-      <a href="https://zko-nymburk.dogres.cz/trainings/518622" target="_blank"><b>Základy rodinného psa</b></a> - soboty<br>
-      <a href="https://zko-nymburk.dogres.cz/trainings/508911" target="_blank"><b>Péče a ošetření</b></a> - soboty<br>
-      <a href="https://zko-nymburk.dogres.cz/trainings/518640" target="_blank"><b>Pozornost a přivolání</b></a> - soboty<br>
+      <a href="https://zko-nymburk.dogres.cz/trainings/503276" target="_blank"><b>Od všeho trochu - kurz pro pokročilé</b></a> - soboty<br>
       <a href="https://zko-nymburk.dogres.cz/trainings/518842" target="_blank"><b>Základní povely - minikurz</b></a> - úterky<br>
-      <a href="https://zko-nymburk.dogres.cz/trainings/521983" target="_blank"><b>Minikurz pro vzrušivé psy</b></a> - úterky<br>
-      <a href="https://zko-nymburk.dogres.cz/trainings/523265" target="_blank"><b>Targety - minikurz</b></a> - úterky<br>
-
-
-    </p>  
-    <!--
-      <b>úterý večer:</b>
-      <p>
-      <a href="https://zko-nymburk.dogres.cz/trainings/451073" target="_blank"><b>Základy rodinného psa 2.0 pro&nbsp;psy všeho věku&nbsp;</b></a> - soboty odpoledne<br>
-             
-      <a href="https://zko-nymburk.dogres.cz/trainings/423166" target="_blank"><b>Základy rodinného psa  pro&nbsp;psy všeho věku&nbsp;</b></a> - PLNO!<br>
-      <a href="https://zko-nymburk.dogres.cz/trainings/423175" target="_blank"><b>Pozornost a přivolání</b></a> - PLNO!<br>
-      <a href="https://zko-nymburk.dogres.cz/trainings/478821" target="_blank"><b>Základy rodinného psa  pro&nbsp;psy všeho věku&nbsp;</b></a> - soboty dopoledne<br>   
-      </p>  
-    <b>sobota:</b>
-      <p><a href="https://zko-nymburk.dogres.cz/trainings/423152" target="_blank"><b>Kurz pro reaktivce - jak být s&nbsp;ostatními psy a lidmi v&nbsp;pohodě</b></a></p>
-    <p>Další kurzy začnou v druhé polovině září<br>
-    -->
+      <a href="https://zko-nymburk.dogres.cz/trainings/508911" target="_blank"><b>Péče a ošetření</b></a> - soboty<br>-->  
+      <a href="https://zko-nymburk.dogres.cz/trainings/526353" target="_blank"><b>Slušná chůze na vodítku - minikurz </b></a> - úterky<br>
+      <a href="https://zko-nymburk.dogres.cz/trainings/526344" target="_blank"><b>Pozornost a přivolání</b></a> - úterky<br>
+      <a href="https://zko-nymburk.dogres.cz/trainings/530165" target="_blank"><b>Minikurz pro vzrušivé psy</b></a> - soboty<br>
+      <a href="https://zko-nymburk.dogres.cz/trainings/530194" target="_blank"><b>Targety - minikurz</b></a> - soboty<br>      
+      <a href="https://zko-nymburk.dogres.cz/trainings/530184" target="_blank"><b>Základy rodinného psa 2.0</b></a> - úterky<br>
+  
+</p>
 
   <h5>ZKO Pardubice Dukla - kurzy</h5>
-    <p>Další mé kurzy v Pardubicích v <a href="https://zkodukla.cz/" target="_blank">ZKO Dukla</a> začnou v první polovině června a budou probíhat opět ve středu</p>  
+    <p>Další mé kurzy v Pardubicích v <a href="https://zkodukla.cz/" target="_blank">ZKO Dukla</a> začnou v červenci a budou probíhat opět ve středu</p>  
     <p>
-      <a href="https://clovek-a-pes-spolu.dogres.cz/trainings/516090" target="_blank"><b>Základy rodinného psa 2.0 pro psy všeho věku</b></a><br>
-      <!--<a href="https://clovek-a-pes-spolu.dogres.cz/trainings/451602" target="_blank"><b>Kurz pro reaktivce - jak být s ostatními psy a lidmi v pohodě - verze 2.0</b></a><br>
-      <a href="https://clovek-a-pes-spolu.dogres.cz/trainings/503261" target="_blank"><b>Od všeho trochu - kurz pro pokročilé</b></a><br>  --> 
-      <a href="https://clovek-a-pes-spolu.dogres.cz/trainings/516099" target="_blank"><b>Pozornost a přivolání</b></a><br>
-      
+      <!--<a href="https://clovek-a-pes-spolu.dogres.cz/trainings/516090" target="_blank"><b>Základy rodinného psa 2.0 pro psy všeho věku</b></a><br>
+      <a href="https://clovek-a-pes-spolu.dogres.cz/trainings/451602" target="_blank"><b>Kurz pro reaktivce - jak být s ostatními psy a lidmi v pohodě - verze 2.0</b></a><br>
+      <a href="https://clovek-a-pes-spolu.dogres.cz/trainings/503261" target="_blank"><b>Od všeho trochu - kurz pro pokročilé</b></a><br>  
+      <a href="https://clovek-a-pes-spolu.dogres.cz/trainings/516099" target="_blank"><b>Pozornost a přivolání</b></a><br> -->
+      <a href="https://clovek-a-pes-spolu.dogres.cz/trainings/529791" target="_blank"><b>Základní povely - minikurz</b></a><br>
+      <a href="https://clovek-a-pes-spolu.dogres.cz/trainings/529787" target="_blank"><b>Minikurz pro vzrušivé psy</b></a><br>
+      <a href="https://clovek-a-pes-spolu.dogres.cz/trainings/529794" target="_blank"><b>Slušná chůze na vodítku - minikurz</b></a><br>
+      <a href="https://clovek-a-pes-spolu.dogres.cz/trainings/529798" target="_blank"><b>Začínáme s targety - minikurz</b></a><br>
       
     </p>
 
